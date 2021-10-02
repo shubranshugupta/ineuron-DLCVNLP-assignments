@@ -14,6 +14,8 @@
 
 git clone https://github.com/shubranshugupta/ineuron-DLCVNLP-assignments.git
 
+conda activate base
+
 cd Assignment1
 
 pip install -r requirements.txt
