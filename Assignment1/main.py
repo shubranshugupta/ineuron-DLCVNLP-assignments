@@ -20,6 +20,8 @@ if __name__=='__main__':
             dataset = int(input("Enter Dataset: "))
         except ValueError:
             print("Please enter Number.")
+            input("Press Enter to continue...")
+            continue
 
         if dataset == 1:
             (X_train, y_train), val, (X_test, y_test) = create_data(1)
