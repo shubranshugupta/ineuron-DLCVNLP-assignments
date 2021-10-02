@@ -1,6 +1,6 @@
 # Ineuron DLCVNLP Assignment 1
 
-### We have to convert the ANN_implementation_demo.ipynb file taken on 26 Sep 2021 into a modular format.
+## We have to convert the ANN_implementation_demo.ipynb file taken on 26 Sep 2021 into a modular format
 
 1. File1 = Creating model
 
