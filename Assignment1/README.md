@@ -22,8 +22,10 @@ python main.py
 
 ```
 
-![Img1](images/Screenshot%20(68).png)
+![Img1](images/Img1.png)
 
-![Img2](images/Screenshot%20(70).png)
+![Img2](images/Img2.png)
 
-![Img3](images/Screenshot%20(69).png)
+![Img3](images/Img3.png)
+
+![Img4](images/Img4.png)

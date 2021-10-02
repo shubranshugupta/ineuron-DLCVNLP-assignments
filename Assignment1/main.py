@@ -33,12 +33,11 @@ if __name__=='__main__':
             continue
 
         model = ClassifierModel()
-        
         model.create_model()
         model.compile_model()
 
         try:
-            EPOCH = int(input("Enter Epoch: "))
+            EPOCH = int(input("\n\nEnter Epoch: "))
             BATCH = int(input("Enter Batch Size: "))
         except ValueError:
             print("Please Enter Number")
@@ -46,12 +45,12 @@ if __name__=='__main__':
             continue
 
         model.train(X_train, y_train, EPOCH, BATCH, val)
-
         model.plot_history()
 
+        print("\n\nTesting Model.")
         model.evaluate(X_test, y_test)
 
-        response = input("Save model y/n: ").lower()
+        response = input("\n\nSave model y/n: ").lower()
         if response == "y":
             file_name = input("Enter File Name: ")
             if not file_name.endswith(".h5"):
@@ -61,7 +60,7 @@ if __name__=='__main__':
         else:
             pass
 
-        end_input = input("Press q to Quit....: ").lower()
+        end_input = input("\n\nPress q to Quit or Enter to continue: ").lower()
         if end_input == "q":
             LOOP = False
         
